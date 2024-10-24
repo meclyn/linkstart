@@ -3,7 +3,7 @@ import dotenv
 
 def print_env(body):
     try:
-        # Carrega as variáveis de ambiente do arquivo .env
+        # Carrega as variáveis de ambiente do arquivo env
         dotenv.load_dotenv()
         env_dict = {}
         for field in body:
